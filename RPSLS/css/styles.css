@@ -1,0 +1,48 @@
+body{
+    background-image: url(../images/download.png);
+}
+
+@font-face{
+    font-family:'bazingaFont';
+    src:url(../fonts/badaboom_bb.zip);
+}
+.score{
+    font-size: 25px;
+    color:black;
+    background-color: white;
+}
+.playBestOf{
+    font-size: 20px;
+    color:black;
+    background-color: mediumseagreen;
+}
+.bazingaRpsls{
+    font-family: 'bazingaFont';
+    color: black;
+    font-size: 58px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:yellow;
+}
+.jumbotron{
+    background-color: rgb(206, 25, 25);
+}
+.bazingaFont{
+    font-family: 'bazingaFont';
+}
+.rpslsBtns{
+    font-size: 30px;
+    display: flex;
+    justify-content:baseline;
+    border:solid;
+    border-color: black;
+    border-radius:10px;
+}
+
+#instructions{
+    color:white;
+    font-size:30px;
+}
+.nextText{
+    color:white;
+    font-size:30px;
+}
